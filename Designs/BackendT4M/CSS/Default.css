@@ -1,0 +1,131 @@
+@font-face { font-family: 'OpenSansLight'; src: url('../Fonts/OpenSans-Light.eot'); src: url('../Fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-Light.woff') format('woff'), url('../Fonts/OpenSans-Light.ttf') format('truetype'), url('../Fonts/OpenSans-Light.svg#OpenSansLight') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'OpenSansLight'; src: url('../Fonts/OpenSans-LightItalic.eot'); src: url('../Fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-LightItalic.woff') format('woff'), url('../Fonts/OpenSans-LightItalic.ttf') format('truetype'), url('../Fonts/OpenSans-LightItalic.svg#OpenSansLightItalic') format('svg'); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'OpenSans'; src: url('../Fonts/OpenSans-Regular.eot'); src: url('../Fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-Regular.woff') format('woff'), url('../Fonts/OpenSans-Regular.ttf') format('truetype'), url('../Fonts/OpenSans-Regular.svg#OpenSansRegular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'OpenSans'; src: url('../Fonts/OpenSans-Italic.eot'); src: url('../Fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-Italic.woff') format('woff'), url('../Fonts/OpenSans-Italic.ttf') format('truetype'), url('../Fonts/OpenSans-Italic.svg#OpenSansItalic') format('svg'); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'OpenSans'; src: url('../Fonts/OpenSans-Bold.eot'); src: url('../Fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-Bold.woff') format('woff'), url('../Fonts/OpenSans-Bold.ttf') format('truetype'), url('../Fonts/OpenSans-Bold.svg#OpenSansBold') format('svg'); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'OpenSans'; src: url('../Fonts/OpenSans-BoldItalic.eot'); src: url('../Fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../Fonts/OpenSans-BoldItalic.woff') format('woff'), url('../Fonts/OpenSans-BoldItalic.ttf') format('truetype'), url('../Fonts/OpenSans-BoldItalic.svg#OpenSansBoldItalic') format('svg'); font-weight: bold; font-style: italic; }
+
+* { margin: 0; padding: 0; border: 0; outline: 0; }
+html { height: 100%; max-height: 100%; }
+body { height: 100%; max-height: 100%; font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 20px; color: #666666; }
+a { text-decoration: none; color: #009fe3; }
+p { margin: 0 0 15px 0; }
+h1 { font-family: OpenSansLight, Arial, Helvetica, sans-serif; font-size: 25px; font-style: normal; line-height: 35px; font-weight: normal; margin: 0 0 10px 0; }
+h2 { font-family: OpenSansLight, Arial, Helvetica, sans-serif; font-size: 22px; font-style: normal; line-height: 28px; font-weight: normal; margin: 0 0 15px 0; }
+h3 { font-family: OpenSansLight, Arial, Helvetica, sans-serif; font-size: 19px; font-style: normal; line-height: 23px; font-weight: normal; margin: 0 0 15px 0; }
+table { width: 100%; }
+td { vertical-align: top; }
+ul { margin: 0 0 15px 0; padding: 0 0 0 40px; }
+input,
+select,
+textarea { background: #eeeeee; font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 24px; border: 1px solid #cccccc; color: #333333; border-radius: 3px; padding: 2px 4px; vertical-align: middle; }
+select { height: 24px; }
+select option.Level0 {}
+select option.Level1 { padding-left: 10px; }
+select option.Level2 { padding-left: 20px; }
+select option.Level3 { padding-left: 30px; }
+select option.Level4 { padding-left: 40px; }
+select option.Level5 { padding-left: 50px; }
+select option.Level6 { padding-left: 60px; }
+select option.Level7 { padding-left: 70px; }
+select option.Level8 { padding-left: 80px; }
+select option.Level9 { padding-left: 90px; }
+textarea { line-height: 18px; padding: 4px; }
+textarea.Html { font-family: monospace; }
+button::-moz-focus-inner { padding: 0; border: 0 none; -moz-box-sizing: content-box; }
+.Button { position: relative; min-width: 4px; min-height: 16px; font-size: 13px; line-height: 16px; background: no-repeat center #009fe3; padding: 4px 10px; color: #ffffff; border-radius: 3px; cursor: pointer; display: block; vertical-align: middle; -moz-box-sizing: content-box; overflow: hidden; }
+.Button.Left { float: left; margin: 0 10px 0 0; }
+.Button.Right { float: right; margin: 0 0 0 10px; }
+.Button.Light { background-color: #dddddd; color: #666666; }
+.Button.Logout { background-image: url(../Images/IconLogout.png); background-color: #cc0000; }
+.Button.Delete { background-image: url(../Images/IconDelete.png); background-color: #cc0000; }
+.Button.Accept { background-image: url(../Images/IconAccept.png); }
+.Button.Web { background-image: url(../Images/IconWeb.png); }
+.Button.Message { background-image: url(../Images/IconMessage.png); }
+.Button input { position: absolute; top: -100px; right: 0; font-size: 300px; cursor: pointer; opacity: 0; width: auto !important; margin: 0; border: 0; padding: 0; }
+
+.Buttons { min-height: 24px; }
+
+.AlignCenter { text-align: center !important; }
+.AlignLeft { text-align: left !important; }
+.AlignRight { text-align: right !important; }
+
+.Form { list-style: none; margin: 0; padding: 0; }
+.Form li { position: relative; margin: 0 0 10px 0; padding: 0 0 0 200px; }
+.Form li label { position: absolute; top: 0; left: 0; line-height: 30px; }
+.Form li input { width: 480px; }
+.Form li textarea { width: 480px; min-width: 480px; min-height: 100px; }
+.Form.Advanced li { display: none; }
+.Form.Advanced li:first-child { display: block; }
+
+.DataTable { width: 100%; padding: 0; }
+.DataTable th { color: #999999; text-align: left; padding: 5px; font-weight: normal; font-size: 17px; font-family: OpenSansLight, Arial, Helvetica, sans-serif; }
+.DataTable td { border-top: 1px solid #dddddd; padding: 5px; line-height: 24px; }
+
+.Sidebar { position: absolute; width: 200px; top: 0; bottom: 0; right: 0; background: #009fe3; color: #ffffff; }
+.Sidebar.Open { width: 100%; }
+.Sidebar a { color: #ffffff; }
+.Sidebar .User { position: absolute; top: 150px; }
+
+.Messages { position: absolute; z-index: 999; top: 3px; right: 32px; width: 24px; height: 24px; background: url('../Images/IconMessages.png') no-repeat center #009fe3; border-radius: 3px; cursor: pointer; }
+.Messages ul { position: absolute; top: 10px; right: 30px; list-style: none; background: url('../Images/MessagesArrow.png') no-repeat top right; padding: 0 10px 0 0; }
+.Messages ul li { white-space: nowrap; background: teal; padding: 0 10px 0 40px; background: no-repeat top left #cccccc; line-height: 30px; border-top: 1px solid white; cursor: default; }
+.Messages ul li:first-child { border: 0; }
+.Messages ul li.All { padding: 0; text-align: center; cursor: pointer; }
+.Messages ul li.Hint { background-image: url('../Images/IconHint.png'); }
+.Messages ul li.Warning { background-image: url('../Images/IconWarning.png'); }
+.Messages ul li.Error { background-image: url('../Images/IconError.png'); }
+
+.Logo { line-height: 90px; text-align: center; font-size: 35px; color: #009fe3; font-family: OpenSansLight, Arial, Helvetica, sans-serif; }
+.Logo .Version { font-size: 14px; line-height: 30px; color: #cccccc; }
+
+.Head { position: absolute; z-index: 2; top: 0; left: 0; right: 0; height: 90px; border-bottom: 1px solid #cccccc; background: #eeeeee; line-height: 30px; }
+.Head .Logo { position: absolute; top: 0; bottom: 0; left: 0; width: 250px; }
+.Head .Logo .Version { position: absolute; bottom: 0; left: 0; right: 0; }
+.Head #Login { position: absolute; top: 30px; bottom: 0; left: 250px; right: 0; background: white; padding: 0 0 0 30px; }
+.Head #Login .Form li { margin: 0; }
+.Head #Login .Form li input { width: 150px; }
+.Head #Login .Button { position: absolute; left: 520px; top: 33px;}
+.Head .Menu { position: absolute; top: 30px; bottom: 0; left: 250px; right: 0; background: white; padding: 0 0 0 20px; margin: 0; list-style: none; font-family: OpenSansLight, Arial, Helvetica, sans-serif; font-size: 18px; }
+.Head .Menu li { padding: 0 10px; margin: 0; float: left; }
+.Head .Menu li a {}
+.Head .Menu li ul { position: absolute; top: 30px; left: 0; right: 0; padding: 0 0 0 20px; margin: 0; list-style: none; font-family: OpenSans, Arial, Helvetica, sans-serif; font-size: 13px; display: none; }
+.Head .Menu li ul li {}
+.Head .Menu li ul li a {}
+.Head .User { position: absolute; top: 0; left: 250px; right: 0; padding: 0 30px; font-size: 13px; }
+.Head .User .Logout { position: absolute; top: 3px; right: 3px; }
+
+.Body { position: absolute; z-index: 1; top: 91px; bottom: 0; left: 0; right: 0; }
+
+.Browser { position: absolute; top: 91px; bottom: 0; left: 0; right: 0; background: white; display: none; z-index: 500000; }
+.Browser .Title { position: absolute; top: 0; left: 0; right: 0; height: 70px; border-bottom: 1px solid #cccccc; padding: 0 30px; line-height: 70px; }
+.Browser .Title h1 { line-height: 70px; }
+.Browser .Title .Button { margin-top: 23px; }
+.Browser .Content { position: absolute; top: 71px; bottom: 0; left: 0; right: 0; }
+
+.LeftColumn { position: absolute; z-index: 1; top: 0; bottom: 0; left: 0; width: 250px; background: #dddddd; overflow: auto; }
+.LeftColumn .Site { border-bottom: 1px solid #cccccc; padding: 20px 10px 10px 10px; }
+.LeftColumn .Menu {}
+.LeftColumn .Menu ul { list-style: none; padding: 0; margin: 0; }
+.LeftColumn .Menu li { padding: 0; margin: 0; }
+.LeftColumn .Menu li.Selected > a { background-color: #009fe3; background-image: url(../Images/IconCategorySelected.png); color: #ffffff; }
+.LeftColumn .Menu ul a { display: block; background: url(../Images/IconCategory.png) no-repeat 10px 0; padding: 2px 0 2px 40px; color: #333333; }
+.LeftColumn .Menu ul ul a { padding-left: 55px; background-position: 25px 0; }
+.LeftColumn .Menu ul ul ul a { padding-left: 70px; background-position: 40px 0; }
+.LeftColumn .Menu ul ul ul ul a { padding-left: 85px; background-position: 55px 0; }
+.LeftColumn .Menu ul ul ul ul ul a { padding-left: 100px; background-position: 70px 0; }
+
+.RightColumn { position: absolute; z-index: 1; top: 0; bottom: 0; left: 250px; right: 0; padding: 20px 30px; overflow: auto; }
+.RightColumn .FixedHead { position: fixed; top: 91px; left: 280px; right: 30px; padding: 20px 0 10px 0; border-bottom: 1px solid #dddddd; color: #999999; z-index: 2; background: white; }
+.Browser .RightColumn .FixedHead { top: 162px; }
+
+.Loader { position: absolute; top: 50%; left: 50%; width: 100px; height: 100px; background: url(../Images/Load.gif) no-repeat center black; opacity: 0.8; border-radius: 5px; margin: -50px 0 0 -50px; display: none; z-index: 999999; }
+.Loading .Loader { display: block; }
+
+.Editor { position: absolute; top: 91px; bottom: 0; left: 250px; right: 0; background: white; display: none; z-index: 100; padding: 20px 30px; }
+.Editor .Content { position: absolute; top: 75px; left: 30px; right: 30px; bottom: 30px; }
+.Editor .Content textarea { width: 100%; height: 100%; padding: 0; margin: 0; border: 0; background: silver; }
+
+.Pager { overflow: hidden; padding: 0; margin: 0; list-style: none; }
+.Pager > * { padding: 0; margin: 0 0 0 30px; float: right; }
+.Pager > :first-child { float: left; margin: 0; }

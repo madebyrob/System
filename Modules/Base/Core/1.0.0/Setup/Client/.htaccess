@@ -1,0 +1,18 @@
+Options +FollowSymlinks
+
+<IfModule mod_rewrite.c>
+
+    SetEnv HTTP_MOD_REWRITE On
+
+	RewriteEngine On
+	
+	# redirect if no subdomain
+	#RewriteCond %{HTTP_HOST} ^[\w-]+\.\w+$
+	#RewriteRule ^.*$ http://www.%{HTTP_HOST}/$0 [L,R=301]
+	
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteRule .* index.php/$0 [L]
+
+</IfModule>

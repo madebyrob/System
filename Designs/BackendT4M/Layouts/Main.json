@@ -1,0 +1,107 @@
+{
+	"Containers":
+	[
+		{
+			"Key": "Head",
+			"Instances":
+			[
+				{
+					"Key": "Login",
+					"View": "Base/Access/Login",
+					"SortKey": "1",
+					"Status": "1",
+					"Contents":
+					[
+						{
+							"Key": "RedirectTo",
+							"Value": "admin/"
+						}
+					]
+				},
+				{
+					"Key": "SitesList",
+					"View": "Base/Structure/SitesList",
+					"SortKey": "30",
+					"Status": "0"
+				},
+				{
+					"Key": "Localizations",
+					"View": "Base/Core/Localizations",
+					"SortKey": "10",
+					"Status": "0",
+					"Permission": "1"
+				},
+				{
+					"Key": "Menu",
+					"View": "Base/Structure/List",
+					"Template": "Base/Structure/Menu",
+					"SortKey": "20",
+					"Status": "1",
+					"Permission": "1",
+					"Contents":
+					[
+						{
+							"Key": "Categories",
+							"Value": "root"
+						},
+						{
+							"Key": "StatusCategories",
+							"Value": "2"
+						},
+						{
+							"Key": "LevelCategories",
+							"Value": "2"
+						},
+						{
+							"Key": "UnpermittedCategories",
+							"Value": "1"
+						},
+						{
+							"Key": "StatusArticles",
+							"Value": "2"
+						},
+						{
+							"Key": "LevelArticles",
+							"Value": "2"
+						},
+						{
+							"Key": "UnpermittedArticles",
+							"Value": "1"
+						}
+					]
+				}
+			]
+		},	
+		{
+			"Key": "Body",
+			"Instances":
+			[
+				{
+					"Key": "Password",
+					"View": "Base/Access/Password",
+					"SortKey": "2",
+					"Status": "0"
+				},
+				{
+					"Key": "Dashboard",
+					"View": "Base/Statistics/Dashboard",
+					"SortKey": "10",
+					"Status": "1",
+					"Permission": "1"
+				}
+			]
+		},	
+		{
+			"Key": "AfterBody",
+			"Instances":
+			[
+				{
+					"Key": "Editor",
+					"View": "T4M/TinyMCE/Editor",
+					"SortKey": "1",
+					"Status": "1"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"Template": "Base/Core/Default",
+	"Containers":
+	[
+		{
+			"Key": "Content"
+		}
+	]
+}

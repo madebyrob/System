@@ -1,0 +1,14 @@
+{
+	"ArticleCreated": "Artikel %s wurde erstellt",
+	"ArticleUpdated": "Artikel %s wurde aktualisiert",
+	"ArticleDeleted": "Artikel %s wurde gelöscht",
+	"InstanceDeleted": "Modul %s wurde entfernt",
+	"CategoryCreated": "Kategorie %s wurde erstellt",
+	"CategoryUpdated": "Kategorie %s wurde aktualisiert",
+	"CategoryDeleted": "Kategorie %s wurde gelöscht",
+	"SiteCreated": "Site %s wurde erstellt",
+	"SiteUpdated": "Site %s wurde aktualisiert",
+	"SiteDeleted": "Site %s wurde gelöscht",
+	"AutoLayout": "Standardwert:",
+	"AutoPermission": "Standardwert:"
+}

@@ -1,0 +1,8 @@
+{
+	"UserCreated": "Benutzer %s wurde erstellt",
+	"UserUpdated": "Benutzer %s wurde aktualisiert",
+	"UserDeleted": "Benutzer %s wurde gelöscht",
+	"GroupCreated": "Gruppe %s wurde erstellt",
+	"GroupUpdated": "Gruppe %s wurde aktualisiert",
+	"GroupDeleted": "Gruppe %s wurde gelöscht"
+}
